@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    /*클릭시 색상 변경 페이지*/
+    /*누른 버튼(checked=true)은 검정으로, 안눌린 버튼(checked=false)은 흰색으로 설정*/
+    <item
+        android:color="@color/black"
+        android:state_checked="true"/>
+
+    <item
+        android:color="@color/white"
+        android:state_checked="false"/>
+</selector>
